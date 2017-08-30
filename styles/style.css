@@ -17,7 +17,13 @@ body, html {
 }
 
 header {
- font-size: 60px
+ font-size: 60px;
+ flex: 1;
+}
+
+main {
+	flex: 3;
+	display: flex;
 }
 
 .pics {
