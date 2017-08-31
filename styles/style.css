@@ -2,7 +2,9 @@ body, html {
 	height: 100%;
 	margin: 0;
 	color: white;
-	font-family: 'helvetica';
+	font-family: 'Lato', sans-serif;
+	background-color: white ;
+
 }
 
 .bg {
@@ -17,39 +19,68 @@ body, html {
 }
 
 header {
- font-size: 60px;
+ font-size: 160px;
+ text-transform: uppercase;
  flex: 1;
+ text-align: center;
+ margin-top: 20px;
 }
 
 main {
 	flex: 3;
 	display: flex;
+	flex-direction: column;
+}
+
+.top-mid {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
 }
 
 .pics {
 	display: flex;
 	flex-direction: column;
+	flex: 1;
+	margin-top: 3%;
+	margin-left: 0%;
+	opacity: .9;
 }
 
 .pics img {
-	height: 150px;
-	width: 200px;
+	height: 180px;
+	width: 260px;
 }
 
 .skills {
-	font-size: 12px
+	font-size: 40px;
+	flex: 2;
+	list-style-type: circle;
+	margin-left:10%;
 }
 
-.dates {
-	font-size: 12px
+.skills li {
+   margin-left:17%;
+}
+
+#down {
+  margin-left: 45%;
+	opacity: .7;
+}
+
+.dates ul li {
+	font-size: 40px;
+	color: darkblue;
 }
 
 .signup {
-
+	font-size: 40px;
+	color: darkblue;
 }
 
 footer {
-	font-size: 9px
+	font-size: 40px;
+	color: darkblue;
 }
 
 /* The switch - the box around the slider */

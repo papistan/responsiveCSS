@@ -3,6 +3,7 @@
 <head>
 	<title>Climb Shasta</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300|PT+Sans" rel="stylesheet">
 </head>
 <body>
 	<div class="bg">
@@ -10,63 +11,54 @@
 	
 		<main> 
 
-		<div class="pics">
-			<img src="styles/climb.jpg">
-			<img src="styles/plateau.jpg">
-			<img src="styles/summit.jpg">
-		</div>
-
-		<div class="skills">
-			<ul>
-				Build foundational skills, including:
-				<li>self and team arrest</li>
-				<li>rope travel</li>
-				<li>snow anchors</li>
-				<li>glacier travel</li>
-				<li>acclimatization</li>
-			</ul>
-		</div>
-
-		<div>
-			<ul class="dates">Upcoming Dates
-				<li><a href="google.com">June 25-8</a></li>
-				<li>July 25-8</li>
-				<li>Aug 25-8</li>
-			</ul>
-		</div>
-
-		<div></div>
-		<div class="signup">
-			<div><h6>Sign up / info</h6></div>
-			
-			<div>
-				<form action="mailto:jpapisan@gmail.com" method="post" enctype="text/plain">
-				
-					<input type="text" name="Name" value="Enter First and Last Names">
-
-					<div>
-						Over 18?
-						<label class="switch">
-							<input type="checkbox" name="over18">
-							<span class="slider round"></span>
-						</label>
-					</div>
-					
-					<textarea name="Qs" rows="5" cols="20">Question or comment</textarea>
-					<br>
-					<input type="email" name="email" value="email">
-					<br>
-					<input type="submit" name="">
-				</form>
+			<div class="top-mid">
+				<div class="pics">
+					<img src="styles/climb.jpg">
+					<img src="styles/plateau.jpg">
+					<img src="styles/summit.jpg">
+				</div>
+				<div class="skills">
+					<ul class="skills">
+						Build foundational skills, including:
+						<li>self and team arrest</li>
+						<li>rope travel</li>
+						<li>snow anchors</li>
+						<li>glacier travel</li>
+						<li>acclimatization</li>
+					</ul>	
+				</div>
 			</div>
-		</div>
-
-
+			<div id="down"><a href="#dates"><img src="styles/down.png"></a></div>
 		</main>
-
-		<footer>&copy Jay Papisan</footer>
 	</div>
 	
-
+	<div>
+		<ul class="dates" id="dates">Upcoming Dates
+			<li><a href="google.com">June 25-8</a></li>
+			<li>July 25-8</li>
+			<li>Aug 25-8</li>
+		</ul>
+	</div>
+	<div class="signup">
+		<div><h6>Sign up / info</h6></div>
+		<div>
+			<form action="mailto:jpapisan@gmail.com" method="post" enctype="text/plain">
+				<input type="text" name="Name" value="Enter First and Last Names">
+				<div>
+				Over 18?
+							<label class="switch">
+								<input type="checkbox" name="over18">
+								<span class="slider round"></span>
+							</label>
+						</div>
+					
+						<textarea name="Qs" rows="5" cols="20">Question or comment</textarea>
+						<br>
+						<input type="email" name="email" value="email">
+						<br>
+						<input type="submit" name="">
+					</form>
+				</div>
+	<footer>&copy Jay Papisan</footer>
 </body>
 </html>
