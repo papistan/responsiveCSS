@@ -1,7 +1,5 @@
 # responsiveCSS
-
-Landscape, portrait and mobile screens 
-
+Self-learning excercise to better utilize responsive web design, with flexbox and media queries, for landscape, portrait and mobile screens 
 
  <img src="/landscape.png" 
  alt="Landscape" title="Landscape" width="450" height="300"/> 
