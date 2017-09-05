@@ -4,7 +4,6 @@ body, html {
 	color: white;
 	font-family: 'Lato', sans-serif;
 	background-color: white ;
-
 }
 
 .bg {
@@ -25,6 +24,9 @@ header {
  text-align: center;
  margin-top: 20px;
 }
+
+
+
 
 main {
 	flex: 3;
@@ -63,19 +65,62 @@ main {
    margin-left:17%;
 }
 
+/* mobile settings */
+@media only screen and (max-device-width: 480px) {
+	.top-mid {
+		flex-direction: column;
+	}
+
+	.pics {
+		margin-left: 23%;
+		overflow: hidden;
+	}
+
+	.pics img {
+	height: 380px;
+	width: 560px;
+	}
+
+	.skills {
+	font-size: 50px;
+	margin-left:5%;
+	}
+}
+
+
 #down {
   margin-left: 45%;
 	opacity: .7;
 }
 
-.dates ul li {
+footer {
+	font-size: 5px;
+	text-align: center;
+}
+
+/*lower section w/ dates & signup form */
+#lower {
+	display: flex;
+	text-transform: uppercase;
+	text-align: center;
+	justify-content: center;
+}
+.dates {
 	font-size: 40px;
 	color: darkblue;
+	flex: 1;
+	margin-left: 10%;
+}
+
+#dates {
+	list-style-type: none;
 }
 
 .signup {
 	font-size: 40px;
 	color: darkblue;
+	flex: 1;
+	margin-right: 10%;
 }
 
 footer {
