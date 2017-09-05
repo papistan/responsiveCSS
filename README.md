@@ -2,7 +2,8 @@
 
 Landscape, portrait and mobile screens 
 
-![iphone6](mobile.png "iphone 6")
+<img src="/mobile.png" 
+ alt="Mobile" title="iphone 6" width="300" height="600"/>
 
 <img src="/landscape.png" 
- alt="Landscape" title="Landscape" width="720" height="400"/>
+ alt="Landscape" title="Landscape" width="500" height="300"/>
